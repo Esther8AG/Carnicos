@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cárnicos | Iniciar sesión</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="brand-mark">C</div>
+    <p class="eyebrow">Sistema de ventas</p>
+    <h1>Cárnicos</h1>
+    <p class="muted">Ingresa para administrar inventario y ventas.</p>
+    <form id="login-form">
+      <label>Usuario<input id="username" autocomplete="username" required></label>
+      <label>Contraseña<input id="password" type="password" autocomplete="current-password" required></label>
+      <p id="login-error" class="error" aria-live="polite"></p>
+      <button type="submit">Ingresar</button>
+    </form>
+    <p class="hint">Demo: <strong>admin</strong> / <strong>admin123</strong></p>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
